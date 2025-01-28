@@ -8,6 +8,7 @@ A Rust-based tool to identify and unfollow GitHub users who don’t follow you b
 ## Features
 
 - Automatically identifies GitHub users you follow who don’t follow you back.
+- Provides a web page interface to select specific users to unfollow.
 - Unfollows non-followers using a simple and secure process.
 - Token-based authentication with GitHub API for privacy and security.
 
@@ -52,6 +53,10 @@ A Rust-based tool to identify and unfollow GitHub users who don’t follow you b
    cargo run
    ```
 
+5. Access the web interface:
+   - Open your browser and navigate to the provided local URL (e.g., `http://localhost:5000`).
+   - Use the interface to view and select users to unfollow.
+
 ---
 
 ## Usage
@@ -60,7 +65,8 @@ A Rust-based tool to identify and unfollow GitHub users who don’t follow you b
 2. It retrieves:
    - The list of users you follow.
    - The list of users who follow you.
-3. Identifies non-followers and unfollows them upon confirmation.
+3. Alternatively, use the web interface to manually select users to unfollow.
+4. Identifies non-followers and unfollows them upon confirmation.
 
 ---
 
