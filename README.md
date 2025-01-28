@@ -1,4 +1,5 @@
 # Unfollow Non-Followers
+![unflow gif](./assets/unflow.gif)
 
 A Rust-based tool to identify and unfollow GitHub users who don’t follow you back. This project leverages the GitHub API to streamline your follow list and manage your connections effectively.
 
