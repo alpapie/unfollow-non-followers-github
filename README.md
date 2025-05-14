@@ -31,7 +31,7 @@ A Rust-based tool to identify and unfollow GitHub users who don’t follow you b
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/alpapie/unfollow-non-followers.git
+   git clone https://github.com/alpapie/unfollow-non-followers-github.git
    cd unfollow-non-followers
    ```
 
